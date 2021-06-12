@@ -1,0 +1,23 @@
+*{
+    padding:0px;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    background-color:aliceblue;
+    font-family: 'Merriweather', serif;
+}
+.navbar{
+    display:flex;
+    align-items: center;
+    margin: 0px 50px;
+    
+    
+    justify-content: space-between;
+}
+.navbar_item{
+    background-color: red;
+    color:azure;
+    border-radius: 15px;
+    padding:12px;
+}
