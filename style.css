@@ -31,15 +31,61 @@ body{
     color:#fff;
     border-radius: 9px;
     
-    padding:16px;
+    padding:12px;
     font-size: 15px;
     
     
 }
+.button_primary{
+    background-image: linear-gradient(
+        to right,
+        #ff5125 0%,
+        #dd2476 51%,
+        #ff512f 100%);
+    color:#fff;
+    border-radius: 9px;
+    
+    padding:12px;
+    font-size: 15px;
+}
+.container{
+    max-width: 100%;
+    padding: 0 20px;
+
+}
+.hero{
+    max-width: 100%;
+    
+}
+.hero-image{
+    width: 100%;
+    border-radius: 10px;
+}
+.hero-image-class{
+    width:100%;
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.849)
+}
+.text{
+    font-size: 28px;
+    margin:20px 0;
+}
+
 @media(min-width:1020px){
     .navbar{
         padding: 5px 30px;
         
         
     }
+    
 }
+@media(min-width:768px){
+    .hero{
+        display:flex;
+        align-items: center;
+        flex-direction: row-reverse;
+        margin-top: 30px;
+
+    }
+}
+    
+
